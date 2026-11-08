@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["W", "F", "I", "B", "N", "NPY"]
+# E, W : style (PEP 8)        F : erreurs (noms non définis, imports inutiles)
+# I : ordre des imports        B : pièges courants (bugbear)
+# N : nommage                  NPY : règles spécifiques à NumPy
+
+[tool.pytest.ini_options]
+filterwarnings = ["error"]     # tout avertissement pendant les tests fait échouer le test

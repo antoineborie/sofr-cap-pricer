@@ -1,0 +1,7 @@
+ipykernel==7.4.0
+matplotlib==3.11.2
+matplotlib-inline==0.2.2
+numpy==2.5.4
+pandas==3.1.1
+pytest==9.2.0
+scipy==1.18.1
